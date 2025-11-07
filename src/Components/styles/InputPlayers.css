@@ -1,0 +1,15 @@
+.disc{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}

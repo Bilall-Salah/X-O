@@ -1,0 +1,33 @@
+.Board{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px #fff;
+    align-items: center;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.Squair{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: #fff solid 2px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.X{
+    color: red;
+    text-shadow: 0 0 7px #ff6b6b;
+
+}
+.O{
+    color: blue;
+    text-shadow: 0 0 7px #9083ff;
+}
