@@ -5,11 +5,11 @@ export default function Choose() {
     const navigate = useNavigate();
     const handleSubmitSingle = (e) => {
         e.preventDefault();
-        navigate("/SinglePlayerSetup.jsx")
+        navigate("/SinglePlayerGame")
   }
   const handleSubmitMulti = (e) => {
         e.preventDefault();
-        navigate("/MultiPlayerSetup.jsx")
+        navigate("/MultiPlayerGame")
     }
     return (
         <div className="container">

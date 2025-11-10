@@ -1,14 +1,10 @@
-.Board{
-    width: 300px;
-    height: 300px;
-    border: 2px solid white;
-    box-shadow: 0 0 5px #fff;
-    align-items: center;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    
+.Board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
 
+  margin-bottom: 20px;
+  margin-top: 80px; /* مساحة أسفل المربع */
 }
 .Squair{
     width: 100px;
@@ -21,13 +17,39 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 15px;
 }
 .X{
-    color: red;
-    text-shadow: 0 0 7px #ff6b6b;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px #1c33b8;
 
 }
 .O{
-    color: blue;
-    text-shadow: 0 0 7px #9083ff;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px #d41e1e;
+}
+.WinningMassage {
+  width: 320px;
+  text-align: center;
+  font-size: 24px;
+
+}
+.resetBTN{
+    width: 120px;
+    height: 50px;
+    border: 0px white solid;
+    box-shadow:0 0 5px #fff ;
+    border-radius: 10px;
+}
+@media (max-width:680px) {
+    .Board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+
+  margin-bottom: 20px;
+  margin-top: 150px; /* مساحة أسفل المربع */
+}
 }
