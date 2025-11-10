@@ -33,7 +33,7 @@ export default function Board() {
   }
   }, [cells]);
   return (
-    <div className='container'>
+    <div className='contain'>
       <div className='Board'>
         {cells.map((cell, index) => (
           <Cells
